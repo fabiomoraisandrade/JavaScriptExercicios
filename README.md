@@ -10,3 +10,4 @@
 - ex007 - Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
 - ex008 - Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros.
 - ex009 - Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
+- ex010 - Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar.

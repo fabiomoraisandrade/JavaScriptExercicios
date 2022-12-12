@@ -18,13 +18,12 @@ const callbackAllQuotes = (erro, res, body) => {
     console.log(json);
 }
 
-const callbackQuoteDolar = async (erro, res, body) => {
-    let json = await JSON.parse(body);
+const callbackQuoteDolar = (erro, res, body) => {
+    let json = JSON.parse(body);
     quoteDolar = json.USDBRL['bid'];
     date = json.USDBRL['create_date'];
     console.log(`Dolar = R$${quoteDolar}. Data da cotação: ${date}`);
     return quoteDolar
 }
 
-let money = request(options, callbackQuoteDolar);
-console.log(2*money);
+request(options, callbackQuoteDolar);
